@@ -1,0 +1,35 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Variables y archivos locales
+.env.*
+!.env.example
+*.log
+
+# Herramientas de desarrollo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Artefactos generados para hardware / PlatformIO
+.pio/
+*.elf
+*.hex
+*.uf2
